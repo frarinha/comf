@@ -1,0 +1,210 @@
+/opt
+├── BloodHound-linux-x64
+│   ├── BloodHound
+│   ├── chrome_100_percent.pak
+│   ├── chrome_200_percent.pak
+│   ├── chrome-sandbox
+│   ├── icudtl.dat
+│   ├── libEGL.so
+│   ├── libffmpeg.so
+│   ├── libGLESv2.so
+│   ├── libvk_swiftshader.so
+│   ├── libvulkan.so
+│   ├── LICENSE
+│   ├── LICENSES.chromium.html
+│   ├── locales
+│   ├── resources
+│   ├── resources.pak
+│   ├── snapshot_blob.bin
+│   ├── swiftshader
+│   ├── v8_context_snapshot.bin
+│   ├── version
+│   └── vk_swiftshader_icd.json
+├── BOF
+│   ├── badchars.py
+│   ├── exploit.py
+│   ├── fuzzer.py
+│   └── mona.py
+├── BurpSuiteCommunity
+│   ├── burpbrowser
+│   ├── BurpSuiteCommunity
+│   ├── Burp Suite Community Edition.desktop -> .install4j/install4j_tmnpg7-BurpSuiteCommunity.desktop
+│   ├── burpsuite_community.jar
+│   ├── BurpSuiteCommunity.vmoptions
+│   ├── cacert.der
+│   ├── jre
+│   └── uninstall
+├── containerd
+│   ├── bin
+│   └── lib
+├── CrackMapExec
+│   ├── build_collector.py
+│   ├── cme
+│   ├── crackmapexec.spec
+│   ├── Dockerfile
+│   ├── flake.lock
+│   ├── flake.nix
+│   ├── LICENSE
+│   ├── Makefile
+│   ├── poetry.lock
+│   ├── pyproject.toml
+│   ├── README.md
+│   ├── requirements.txt
+│   └── shell.nix
+├── creds
+│   ├── creddump7
+│   └── firefox_decrypt
+├── deserialization
+│   └── phpggc
+├── exploitdb
+│   ├── exploits
+│   ├── files_exploits.csv
+│   ├── files_shellcodes.csv
+│   ├── LICENSE.md
+│   ├── README.md
+│   ├── searchsploit
+│   └── shellcodes
+├── ffuf
+│   ├── CHANGELOG.md
+│   ├── CONTRIBUTORS.md
+│   ├── ffuf
+│   ├── ffufrc.example
+│   ├── go.mod
+│   ├── go.sum
+│   ├── help.go
+│   ├── _img
+│   ├── LICENSE
+│   ├── main.go
+│   ├── pkg
+│   └── README.md
+├── firmware-mod-kit
+│   └── trunk
+├── GitTools
+│   ├── Dumper
+│   ├── Extractor
+│   ├── Finder
+│   ├── LICENSE.md
+│   └── README.md
+├── glitchlock
+│   ├── glitchlock
+│   ├── preview.png
+│   ├── README.md
+│   └── stop.png
+├── google
+│   └── chrome
+├── hash-identifier
+│   ├── debian
+│   ├── hash-id.py
+│   ├── README.md
+│   └── screenshots
+├── impacket
+│   ├── build
+│   ├── ChangeLog.md
+│   ├── dist
+│   ├── Dockerfile
+│   ├── examples
+│   ├── impacket
+│   ├── impacket.egg-info
+│   ├── LICENSE
+│   ├── MANIFEST.in
+│   ├── README.md
+│   ├── requirements.txt
+│   ├── SECURITY.md
+│   ├── setup.py
+│   ├── tests
+│   └── tox.ini
+├── kernel-exploits
+│   └── windows
+├── microsoft
+│   └── powershell
+├── nessus
+│   ├── bin
+│   ├── com
+│   ├── etc
+│   ├── lib
+│   ├── sbin
+│   └── var
+├── NoSQLMap
+│   ├── build
+│   ├── COPYING
+│   ├── dist
+│   ├── docker
+│   ├── docs
+│   ├── exception.py
+│   ├── exception.pyc
+│   ├── ISSUE_TEMPLATE.md
+│   ├── NoSQLMap.egg-info
+│   ├── nosqlmap.py
+│   ├── nsmcouch.py
+│   ├── nsmcouch.pyc
+│   ├── nsmmongo.py
+│   ├── nsmmongo.pyc
+│   ├── nsmscan.py
+│   ├── nsmscan.pyc
+│   ├── nsmweb.py
+│   ├── nsmweb.pyc
+│   ├── README.md
+│   ├── screenshots
+│   ├── setup.py
+│   ├── TODO
+│   └── vuln_apps
+├── pivoting
+│   └── chisel
+├── Powermad
+│   ├── Invoke-DNSUpdate.ps1
+│   ├── LICENSE
+│   ├── Powermad.ps1
+│   ├── Powermad.psd1
+│   ├── Powermad.psm1
+│   └── README.md
+├── privesc-scripts
+│   ├── LinEnum.sh
+│   ├── linpeas.sh
+│   ├── lse.sh
+│   └── winPEASx64.exe
+├── shells
+├── sublime_text
+│   ├── changelog.txt
+│   ├── crash_reporter
+│   ├── Icon
+│   ├── Lib
+│   ├── libcrypto.so.1.1
+│   ├── libssl.so.1.1
+│   ├── Packages
+│   ├── plugin_host-3.3
+│   ├── plugin_host-3.8
+│   └── sublime_text
+├── Ulauncher
+│   ├── AUTHORS
+│   ├── bin
+│   ├── conftest.py
+│   ├── data
+│   ├── debian
+│   ├── Dockerfile
+│   ├── docs
+│   ├── LICENSE
+│   ├── README.md
+│   ├── requirements.txt
+│   ├── scripts
+│   ├── setup.cfg
+│   ├── setup.py
+│   ├── tests
+│   ├── ul
+│   ├── ulauncher
+│   ├── ulauncher.desktop.dev
+│   ├── ulauncher.desktop.in
+│   └── ulauncher.service
+├── windows_binaries
+│   ├── Ghostpack-CompiledBinaries
+│   └── nc.exe
+└── xplico
+    ├── bin
+    ├── cfg
+    ├── geolite_update.sh
+    ├── log
+    ├── script
+    ├── xi
+    ├── xplico.db
+    └── xplico.db.backup
+
+88 directories, 119 files
