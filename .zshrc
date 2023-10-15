@@ -1,7 +1,11 @@
 #Fix the Java Problem 
 export _JAVA_AWT_WM_NONREPARENTING=1 
 #Path to your oh-my-zsh installation.  
-export ZSH="/home/kafka/.oh-my-zsh" 
+setxkbmap -option caps:swapescape
+#export TERM=xterm-256color
+
+
+export ZSH="/root/.oh-my-zsh" 
 # Set name of the theme to load --- if set to "random", it will load a random theme each time oh-my-zsh is loaded, in which case, to know which specific one was loaded, run: echo $RANDOM_THEME See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes 
 ZSH_THEME="cypher" 
 #Use emacs keybindings even if our EDITOR is set to vi bindkey -e Vi mode
@@ -39,7 +43,7 @@ ZSH_HIGHLIGHT_STYLES[path]=none
 ZSH_HIGHLIGHT_STYLES[path_prefix]=none
 ZSH_HIGHLIGHT_STYLES[arg0]=fg=white,bold
 #source /home/kafka/powerlevel10k/powerlevel10k.zsh-theme
-ZSH_AUTOSUGGEST_HISTORY_IGNORE=*
+#ZSH_AUTOSUGGEST_HISTORY_IGNORE=*
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 #[[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
@@ -48,25 +52,39 @@ ZSH_AUTOSUGGEST_HISTORY_IGNORE=*
 
 PATH=/root/.local/bin:/snap/bin:/usr/sandbox/:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/share/games:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
 
+# GO PATH
+export PATH=$PATH:/usr/local/go/bin
+
 # Manual aliases
 alias ll='lsd -lh --group-dirs=first'
 alias la='lsd -a --group-dirs=first'
 alias l='lsd --group-dirs=first'
 alias lla='lsd -lha --group-dirs=first'
-alias ls='lsd --group-dirs=first'
-alias cat='batcat'
+#alias ls='lsd --group-dirs=first'
+#alias cat='batcat'
 alias catn='/usr/bin/cat'
 alias vpn='/usr/sbin/openvpn >/dev/null'
-alias copy='/usr/bin/xclip -sel clip'
+alias copy='/usr/bin/xclip -i -sel p -rmlastnl -f | xclip -i -sel c -rmlastnl >/dev/null 2>&1'
 alias up='python3 -m http.server 80'
+alias vi='/usr/bin/nvim'
+## sshutle || Ex: sshutle-all -r kali-jump
+alias sshuttle-all="sshuttle 0/0 -x 46.19.37.133 -x 164.138.25.191 -x 93.108.233.203 --dns"
+# ghidra
+alias ghidra='/opt/ghidra/ghidra_10.2.3_PUBLIC/ghidraRun'
+# cutter
+alias cutter='/opt/reversing/Cutter-v2.2.0-Linux-x86_64.AppImage'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # Plugins
-plugins=(git)
+plugins=(
+	git
+	sudo
+)
+
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /usr/share/zsh-sudo/sudo.plugin.zsh
+#source /usr/share/zsh-sudo/sudo.plugin.zsh
 source $ZSH/oh-my-zsh.sh
 
 # Functions
@@ -136,4 +154,18 @@ function target(){
 	export target=$1
 }
 
+function nif(){
+	curl -v "https://nif.marcosantos.me/?i=1" 2> /dev/null | grep -o "<h2 id=\"nif\">.*</h2>" | sed 's/\(<h2 id=\"nif\">\|<\/h2>\)//g'
+}
+
+function cc(){
+	curl -v "https://cc.marcosantos.me/?i=1" 2> /dev/null | grep --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn,.idea,.tox} -o "<span class=\"number\">.*</span>" | egrep -o "\w+<\/span>" | tr -d "</span>" | tr "\n" " "
+}
+
 export PATH="$HOME/.poetry/bin:$PATH"
+
+
+#####KEYCHAIN
+#eval `keychain --eval id_rsa -q`
+#####END
+

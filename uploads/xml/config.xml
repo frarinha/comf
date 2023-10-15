@@ -1,0 +1,12 @@
+<xml>
+    <title>Your HTML title</title>
+    <htmlData><![CDATA[<html>
+            <h1>asdf</h1>
+        <body>
+					<iframe src=\web.config></iframe>
+        </body>
+        </html>
+     ]]>
+    </htmlData>
+</xml>
+

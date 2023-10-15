@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="62px" viewBox="0 0 48 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 17</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="HP" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="homepage_TRQ_1336" transform="translate(-923.000000, -486.000000)" stroke="#00AF41" stroke-width="2">
+            <g id="Group-17" transform="translate(924.000000, 487.000000)">
+                <polygon id="Stroke-1" points="5 31 27 31 27 22 5 22"></polygon>
+                <polygon id="Stroke-2" points="11 43 21 43 21 34 11 34"></polygon>
+                <polygon id="Stroke-3" points="31 43 41 43 41 34 31 34"></polygon>
+                <polygon id="Stroke-4" points="11 57 21 57 21 48 11 48"></polygon>
+                <polygon id="Stroke-5" points="31 57 41 57 41 48 31 48"></polygon>
+                <polyline id="Stroke-6" points="27 27 36 27 36 35"></polyline>
+                <path d="M36,48 L36,44" id="Stroke-7"></path>
+                <path d="M16,48 L16,44" id="Stroke-8"></path>
+                <path d="M16,35 L16,31" id="Stroke-9"></path>
+                <g id="Group-16">
+                    <path d="M26.5026653,7.23309375 C26.5026653,9.24309375 24.8710735,10.8724687 22.8583388,10.8724687 C20.8456041,10.8724687 19.2130735,9.24309375 19.2130735,7.23309375 C19.2130735,5.22309375 20.8456041,3.59371875 22.8583388,3.59371875 C24.8710735,3.59371875 26.5026653,5.22309375 26.5026653,7.23309375 Z" id="Stroke-10"></path>
+                    <path d="M23.1216653,19.1404687 L9.81170612,19.1404687 L9.81170612,9.84328125 L16.4582367,9.84328125 C16.4582367,9.84328125 13.7245224,1.78734375 22.8578694,0.36609375 C32.0456653,1.61109375 29.337298,9.84328125 29.337298,9.84328125 L35.7829306,9.84328125 L35.7829306,19.1404687 L22.8747673,19.1404687" id="Stroke-12"></path>
+                    <polyline id="Stroke-14" points="45.9997184 12.65625 35.7830245 12.65625 45.9997184 12.65625 45.9997184 60 -0.000281632653 60 -0.000281632653 12.65625 10.1112694 12.65625 -0.000281632653 12.65625 -0.000281632653 60 45.9997184 60"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,1 @@
+<a xmlns:a='http://www.w3.org/1999/xhtml'><a:body onload='alert(document.domain)'/></a>

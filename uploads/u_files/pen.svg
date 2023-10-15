@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="15px" viewBox="0 0 16 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="caneta/inactive" transform="translate(-1.000000, -2.000000)" stroke="#00AF41">
+            <g id="Group" transform="translate(2.000000, 2.000000)">
+                <g id="Group-13">
+                    <path d="M0.077328125,14.895403 L1.63329688,13.3031642" id="Stroke-1"></path>
+                    <path d="M0.772778125,12.522806 L2.23009062,11.0315373" id="Stroke-3"></path>
+                    <path d="M2.4584875,14.2270522 L3.90551875,12.746306" id="Stroke-4"></path>
+                    <polyline id="Stroke-5" points="13.4425594 4.22928358 13.9695281 2.5548806 12.2381219 0.782641791 10.6020906 1.32197015"></polyline>
+                    <path d="M0.855246875,12.438403 L2.53087187,14.1531045" id="Stroke-7"></path>
+                    <path d="M1.6232125,10.3954925 L4.57699375,13.4187761" id="Stroke-8"></path>
+                    <path d="M1.56692812,10.453209 L10.4709281,1.34037313" id="Stroke-9"></path>
+                    <path d="M4.42660312,13.4187537 L13.5042906,4.12793284" id="Stroke-10"></path>
+                    <polyline id="Stroke-11" points="5.2523625 4.42878358 9.42501875 0.158261194 9.44755 0.181320896 13.4040812 4.23064925"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

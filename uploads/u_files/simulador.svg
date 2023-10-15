@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>simuladores</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="lista_main_menu-/inactive" transform="translate(-52.000000, -21.000000)">
+            <g id="venda/inactive" transform="translate(49.000000, 17.000000)">
+                <g id="Group-25" stroke-width="1" fill-rule="evenodd" transform="translate(16.666667, 13.333333)" stroke="#00AF41">
+                    <polygon id="Stroke-18" points="3.5359589 0 1.4640411 0 0 1.46505085 0 3.53603116 1.4640411 5 3.5359589 5 5 3.53603116 5 1.46505085"></polygon>
+                </g>
+                <rect id="Rectangle" fill="#00AF41" fill-rule="nonzero" x="21.6666667" y="15" width="5" height="1.66666667"></rect>
+                <rect id="Rectangle-Copy" fill="#00AF41" fill-rule="nonzero" x="3.33333333" y="15" width="13.3333333" height="1.66666667"></rect>
+                <polygon id="Stroke-18" stroke="#00AF41" stroke-width="1" points="11.8692922 5 9.79737443 5 8.33333333 6.46505085 8.33333333 8.53603116 9.79737443 10 11.8692922 10 13.3333333 8.53603116 13.3333333 6.46505085"></polygon>
+                <polygon id="Stroke-18-Copy" stroke="#00AF41" stroke-width="1" points="11.8692922 21.6666667 9.79737443 21.6666667 8.33333333 23.1317175 8.33333333 25.2026978 9.79737443 26.6666667 11.8692922 26.6666667 13.3333333 25.2026978 13.3333333 23.1317175"></polygon>
+                <rect id="Rectangle" fill="#00AF41" fill-rule="nonzero" transform="translate(5.833333, 7.500000) scale(-1, 1) translate(-5.833333, -7.500000) " x="3.33333333" y="6.66666667" width="5" height="1.66666667"></rect>
+                <rect id="Rectangle-Copy" fill="#00AF41" fill-rule="nonzero" transform="translate(20.000000, 7.500000) scale(-1, 1) translate(-20.000000, -7.500000) " x="13.3333333" y="6.66666667" width="13.3333333" height="1.66666667"></rect>
+                <rect id="Rectangle" fill="#00AF41" fill-rule="nonzero" x="3.33333333" y="23.3333333" width="5" height="1.66666667"></rect>
+                <rect id="Rectangle-Copy" fill="#00AF41" fill-rule="nonzero" x="13.3333333" y="23.3333333" width="13.3333333" height="1.66666667"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

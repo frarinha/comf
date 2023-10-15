@@ -44,5 +44,17 @@ nnoremap <C-l> <C-w>l
 nnoremap <Leader>o o<Esc>^Da
 nnoremap <Leader>O O<Esc>^Da
 
+
 nmap <C-n> :NERDTreeToggle<CR>
 nmap <C-i> :IndentLinesToggle<CR>
+inoremap <silent><expr> <c-space> coc#refresh()
+
+function! CocToggle()
+    if g:coc_enabled
+        CocDisable
+    else
+        CocEnable
+    endif
+endfunction
+nmap <c-t> :call CocToggle()
+
